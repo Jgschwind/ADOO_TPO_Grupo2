@@ -1,6 +1,7 @@
 package Modelo;
 
 public class Medico extends Persona {
+	private int nroMatricula;
 
     public Medico(int nroMatricula) {
 		super();
@@ -8,7 +9,7 @@ public class Medico extends Persona {
 		this.nroMatricula = nroMatricula;
 	}
 
-	private int nroMatricula;
+	
 
 
     public void  programarCita (int dni, int turnoId){
