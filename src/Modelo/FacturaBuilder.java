@@ -1,3 +1,5 @@
+package Modelo;
+
 public interface FacturaBuilder {
 
     String ObtenerDetalleFactura();
@@ -11,3 +13,4 @@ public interface FacturaBuilder {
     Factura obtenerFactura();
 
 }
+

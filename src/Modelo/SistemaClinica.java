@@ -6,5 +6,7 @@ public class SistemaClinica {
     private ArrayList<Paciente> pacientes;
     private ArrayList<Medico> doctores;
     private ArrayList<TurnoMedico> turnosMedicos;
+    private static SistemaClinica instance;
+    private FacturaBuilder builder;
 
 }

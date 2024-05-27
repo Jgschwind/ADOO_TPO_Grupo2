@@ -1,6 +1,7 @@
 package Modelo;
-import java.util.ArrayList;
-import java.util.Date;
+
+
+import java.util.*;
 
 public class Paciente {
 
@@ -42,4 +43,5 @@ public class Paciente {
 			//Agregar despues para ver el historial de los turnos	
 		}
 	}
+
 }

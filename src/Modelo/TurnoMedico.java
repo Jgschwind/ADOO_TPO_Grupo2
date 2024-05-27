@@ -27,4 +27,17 @@ public class TurnoMedico {
     private void totalPago(){
 
     }
+
+	public TurnoMedico(Paciente cliente, Medico medicoAsignado, double costoTotal, int complejidad, Date fechaHora,
+			String estado, String motivoConsulta) {
+		super();
+		this.cliente = cliente;
+		this.medicoAsignado = medicoAsignado;
+		this.costoTotal = costoTotal;
+		this.complejidad = complejidad;
+		this.fechaHora = fechaHora;
+		this.estado = estado;
+		this.motivoConsulta = motivoConsulta;
+	}
+
 }

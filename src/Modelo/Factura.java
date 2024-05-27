@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Factura {
     private Paciente paciente;
     private TurnoMedico turnoMedico;
@@ -43,3 +45,4 @@ public class Factura {
         this.descuento = descuento;
     }
 }
+

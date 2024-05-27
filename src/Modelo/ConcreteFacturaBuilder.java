@@ -1,5 +1,6 @@
 package Modelo;
 
+
 public class ConcreteFacturaBuilder extends FacturaBuilder{
     private Factura factura;
 
@@ -27,7 +28,8 @@ public class ConcreteFacturaBuilder extends FacturaBuilder{
 
     public Factura obtenerFactura(){
         return this.factura;
-    };
+    }
 
 
 }
+
