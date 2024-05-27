@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Medico extends Persona {
 
     private int nroMatricula;
