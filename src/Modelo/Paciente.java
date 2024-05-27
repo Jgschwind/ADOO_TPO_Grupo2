@@ -1,10 +1,9 @@
 package Modelo;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class Paciente {
+public class Paciente extends Persona{
 
     private LocalDate fechadeNacimiento;
 
@@ -13,9 +12,9 @@ public class Paciente {
     private String obraSocial;
     private ArrayList<TurnoMedico> listaTurnos;
     private boolean jubilado;
-	public Paciente(int dia, int mes, int anio, int telefono, String direccion, String obraSocial,
+	public Paciente(String nombre, String apellido, int dni, int dia, int mes, int anio, int telefono, String direccion, String obraSocial,
 			 boolean jubilado) {
-		super();
+		super(nombre,apellido,dni);
 		//this.fechadeNacimiento = fechadeNacimiento;
 		this.fechadeNacimiento = LocalDate.of(anio, mes, dia);
 		this.telefono = telefono;
