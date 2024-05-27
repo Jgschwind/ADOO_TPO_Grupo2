@@ -2,13 +2,23 @@ package Modelo;
 
 public class Medico extends Persona {
 
-    private int nroMatricula;
+	int nroMatricula;
+	
+	
 
-    public void  programarCita (int dni, int turnoId){
+	public int getNroMatricula() {
+		return nroMatricula;
+	}
 
-    }
+	public void setNroMatricula(int nroMatricula) {
+		this.nroMatricula = nroMatricula;
+	}
 
-    public void realizarConsulta (int turnoId){
-
-    }
+	public void programarCita(Paciente paciente,TurnoMedicoBuilder cita) {
+		 
+	}
+	
+	public void realizarConsulta(TurnoMedicoBuilder turno) {
+		
+	}
 }
