@@ -14,6 +14,7 @@ public class TurnoMedico {
     private void totalPago(){
 
     }
+<<<<<<< HEAD
 
 	public TurnoMedico(Paciente cliente, Medico medicoAsignado, double costoTotal, int complejidad, Date fechaHora,
 			String estado, String motivoConsulta) {
@@ -26,4 +27,6 @@ public class TurnoMedico {
 		this.estado = estado;
 		this.motivoConsulta = motivoConsulta;
 	}
+=======
+>>>>>>> c411b5b3883c7d084e21867700929b629a9dfe96
 }
